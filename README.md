@@ -96,11 +96,6 @@ DeepScan AI is a free and open-source project dedicated to optimizing your stora
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/rorrimaesu)
 
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
