@@ -47,7 +47,7 @@ DeepScan AI is a cutting-edge disk space analyzer designed to help you reclaim w
 
 <div align="center">
   <img src="logo.png" alt="Project Logo" width="200">
-  <br>Project Logo
+  <br>
 </div>
 
 ---
