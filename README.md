@@ -3,10 +3,6 @@
 # DeepScan AI  
 *The Pinnacle of Intelligent Disk Space Analysis*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
----
-
 ## Overview
 
 Welcome to **DeepScan AI**—a state-of-the-art disk space analyzer meticulously crafted for those who demand precision, performance, and luxury in their digital management tools. Utilizing advanced scanning algorithms and AI-powered insights, DeepScan AI transforms the way you view and optimize your storage. Every feature, from its refined categorization to its elegant visualizations, is designed to elevate your computing experience to an elite level.
