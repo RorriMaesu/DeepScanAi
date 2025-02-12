@@ -6,7 +6,7 @@
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-success?style=for-the-badge&logo=github)](https://github.com/RorriMaesu/DeepScanAi)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Made with Love](https://img.shields.io/badge/Made%20with-♥-red?style=for-the-badge)](https://github.com/RorriMaesu)
-
+[![Local AI](https://img.shields.io/badge/Local_AI-DeepSeek_7B-purple?style=for-the-badge&logo=neural-network)](https://github.com/RorriMaesu/DeepScanAi)
 
 <p align="center">
   <img src="logo.png" alt="DeepScan AI Logo" width="200" height="200"/>
@@ -22,7 +22,7 @@
 
 ## 🌟 Overview
 
-DeepScan AI represents the convergence of advanced storage analysis and artificial intelligence. By harnessing the power of dual AI engines (Gemini and DeepSeekR1), we deliver unparalleled insights into your storage ecosystem, transforming raw data into actionable intelligence.
+DeepScan AI represents the convergence of advanced storage analysis and artificial intelligence. By harnessing the power of dual AI engines (cloud-based Gemini and locally-run DeepSeek 7B), we deliver unparalleled insights into your storage ecosystem, transforming raw data into actionable intelligence while maintaining privacy through local AI processing.
 
 <div align="center">
 
@@ -31,7 +31,8 @@ DeepScan AI represents the convergence of advanced storage analysis and artifici
 | Metric | Performance |
 |:------:|:----------:|
 | Scan Speed | 1M+ files/minute |
-| AI Response Time | <500ms |
+| Local AI Response Time | <100ms |
+| Cloud AI Response Time | <500ms |
 | Accuracy Rate | 99.9% |
 | Platform Support | 3 OS families |
 
@@ -92,7 +93,7 @@ DeepScan AI represents the convergence of advanced storage analysis and artifici
 | Category | Features |
 |----------|-----------|
 | 🚀 **Performance** | • Two-Pass Scanning Algorithm<br>• Context-Aware Processing<br>• Real-Time Analysis Engine |
-| 🤖 **AI Integration** | • Dual AI Engine Support (Gemini & DeepSeekR1)<br>• Intelligent File Classification<br>• Predictive Analytics |
+| 🤖 **AI Integration** | • Privacy-Focused Local AI (DeepSeek 7B)<br>• Optional Cloud AI Support (Gemini)<br>• Intelligent File Classification<br>• Predictive Analytics |
 | 📊 **Visualization** | • Interactive Charts & Graphs<br>• Real-Time Data Updates<br>• Custom Visualization Templates |
 | 🎨 **User Experience** | • Modern Dark Mode Interface<br>• Intuitive Navigation<br>• Contextual Help System |
 | 🔄 **Compatibility** | • Cross-Platform Support<br>• Flexible Export Options<br>• API Integration Capabilities |
@@ -106,8 +107,9 @@ DeepScan AI represents the convergence of advanced storage analysis and artifici
 ```bash
 # Required System Specifications
 - Python 3.11+
-- 4GB RAM minimum
-- 500MB disk space
+- 4GB RAM minimum (16GB recommended for local AI)
+- 500MB disk space (+12GB for local AI model)
+- CUDA-compatible GPU (optional, recommended for local AI)
 ```
 
 ### Quick Start
@@ -129,23 +131,39 @@ pip install -r requirements.txt
 ### AI Engine Setup
 
 <details>
-<summary>🤖 Gemini Configuration</summary>
+<summary>🤖 Local AI Setup (Recommended)</summary>
 
 ```bash
-# Create .env file
-echo "GEMINI_API_KEY=your_api_key_here" > .env
+# Install Ollama for local AI execution
+curl -fsSL https://ollama.com/install.sh | sh
+
+# Pull and run DeepSeek 7B model locally
+# All processing stays on your machine
+ollama run deepseek-coder-7b-instruct
+
+# Verify local model installation
+ollama list
 ```
+
+**Benefits of Local AI:**
+- Complete privacy - all analysis stays on your machine
+- No internet required for AI features
+- Fully controllable inference parameters
+- Lower latency for repeated operations
+- Free and unlimited usage
+
+**Local AI System Requirements:**
+- 16GB RAM recommended
+- 12GB free disk space for model
+- CUDA-compatible GPU (optional, for faster processing)
 </details>
 
 <details>
-<summary>🔮 DeepSeekR1 Setup</summary>
+<summary>🌐 Cloud AI Setup (Optional)</summary>
 
 ```bash
-# Install Ollama
-curl -fsSL https://ollama.com/install.sh | sh
-
-# Initialize DeepSeekR1
-ollama run deepseek-r1
+# Create .env file for cloud AI
+echo "GEMINI_API_KEY=your_api_key_here" > .env
 ```
 </details>
 
@@ -194,7 +212,7 @@ python app.py
 1. **Initialize Scan**
    - Select target directory
    - Configure scan parameters
-   - Choose AI engine
+   - Choose AI engine (Local or Cloud)
 
 2. **Analysis Phase**
    - Monitor real-time progress
@@ -221,7 +239,13 @@ scan:
   skip_hidden: true
 
 ai:
-  engine: "gemini"  # or "deepseek-r1"
+  primary_engine: "local"  # "local" or "cloud"
+  local_model: "deepseek-coder-7b-instruct"
+  local_settings:
+    gpu_layers: -1  # Use all available GPU layers
+    context_size: 4096
+    temp: 0.7
+  cloud_engine: "gemini"  # Optional fallback
   response_timeout: 5000
   cache_results: true
 
