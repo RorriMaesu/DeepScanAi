@@ -9,23 +9,48 @@ DeepScan AI is a cutting-edge disk space analyzer designed to help you reclaim w
 ## Screenshots
 
 ### AI Dashboard
-
-![AI Dashboard Screenshot 1](ai1.png)  
-![AI Dashboard Screenshot 2](ai2.png)
+<table>
+  <tr>
+    <td align="center">
+      <img src="ai1.png" alt="AI Dashboard Screenshot 1" width="400">
+      <br>AI Dashboard 1
+    </td>
+    <td align="center">
+      <img src="ai2.png" alt="AI Dashboard Screenshot 2" width="400">
+      <br>AI Dashboard 2
+    </td>
+  </tr>
+</table>
 
 ### Chatbot Interface
-
-![Chatbot Screenshot 1](chatbot1.png)  
-![Chatbot Screenshot 2](chatbot2.png)  
-![Chatbot Screenshot 3](chatbot3.png)
+<table>
+  <tr>
+    <td align="center">
+      <img src="chatbot1.png" alt="Chatbot Screenshot 1" width="300">
+      <br>Chatbot 1
+    </td>
+    <td align="center">
+      <img src="chatbot2.png" alt="Chatbot Screenshot 2" width="300">
+      <br>Chatbot 2
+    </td>
+    <td align="center">
+      <img src="chatbot3.png" alt="Chatbot Screenshot 3" width="300">
+      <br>Chatbot 3
+    </td>
+  </tr>
+</table>
 
 ### Charts
-
-![Charts Visualization](charts.png)
+<div align="center">
+  <img src="charts.png" alt="Charts Visualization" width="600">
+  <br>Charts Visualization
+</div>
 
 ### Project Logo
-
-![Project Logo](logo.png)
+<div align="center">
+  <img src="logo.png" alt="Project Logo" width="200">
+  <br>Project Logo
+</div>
 
 ---
 
