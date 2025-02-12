@@ -6,6 +6,29 @@ DeepScan AI is a cutting-edge disk space analyzer designed to help you reclaim w
 
 ---
 
+## Screenshots
+
+### AI Dashboard
+
+![AI Dashboard Screenshot 1](ai1.png)  
+![AI Dashboard Screenshot 2](ai2.png)
+
+### Chatbot Interface
+
+![Chatbot Screenshot 1](chatbot1.png)  
+![Chatbot Screenshot 2](chatbot2.png)  
+![Chatbot Screenshot 3](chatbot3.png)
+
+### Charts
+
+![Charts Visualization](charts.png)
+
+### Project Logo
+
+![Project Logo](logo.png)
+
+---
+
 ## Features
 
 - **Fast Two-Pass Scanning:** Accelerated, precise scanning to quickly assess your storage.
@@ -96,7 +119,6 @@ DeepScan AI is a free and open-source project dedicated to optimizing your stora
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/rorrimaesu)
 
-
 ---
 
 ## Connect
@@ -107,3 +129,4 @@ DeepScan AI is a free and open-source project dedicated to optimizing your stora
 ---
 
 Elevate your disk management experience with DeepScan AI—where precision meets sophistication and every byte is meticulously analyzed.
+```
