@@ -14,7 +14,7 @@
 
 > *"Where Precision Meets Intelligence in Storage Management"*
 
-[Features](#features) • [Installation](#installation) • [Documentation](#documentation) • [Support](#support) • [Connect](#connect)
+[Features](#-features) • [Installation](#-installation) • [Documentation](#-documentation) • [Support](#-support) • [Connect](#-connect)
 
 </div>
 
@@ -28,12 +28,12 @@ DeepScan AI represents the convergence of advanced storage analysis and artifici
 
 ### 🎯 Key Metrics
 
-| Metric | Performance |
-|:------:|:----------:|
-| Scan Speed | 1M+ files/minute |
-| AI Response Time | <500ms |
-| Accuracy Rate | 99.9% |
-| Platform Support | 3 OS families |
+| Metric           | Performance         |
+|:----------------:|:-------------------:|
+| **Scan Speed**   | 1M+ files/minute    |
+| **AI Response Time** | <500ms         |
+| **Accuracy Rate**| 99.9%               |
+| **Platform Support** | 3 OS families  |
 
 </div>
 
@@ -89,13 +89,13 @@ DeepScan AI represents the convergence of advanced storage analysis and artifici
 
 <div align="center">
 
-| Category | Features |
-|----------|-----------|
-| 🚀 **Performance** | • Two-Pass Scanning Algorithm<br>• Context-Aware Processing<br>• Real-Time Analysis Engine |
-| 🤖 **AI Integration** | • Dual AI Engine Support (Gemini & DeepSeekR1)<br>• Intelligent File Classification<br>• Predictive Analytics |
-| 📊 **Visualization** | • Interactive Charts & Graphs<br>• Real-Time Data Updates<br>• Custom Visualization Templates |
-| 🎨 **User Experience** | • Modern Dark Mode Interface<br>• Intuitive Navigation<br>• Contextual Help System |
-| 🔄 **Compatibility** | • Cross-Platform Support<br>• Flexible Export Options<br>• API Integration Capabilities |
+| Category               | Features                                                                                             |
+|------------------------|------------------------------------------------------------------------------------------------------|
+| 🚀 **Performance**     | • Two-Pass Scanning Algorithm<br>• Context-Aware Processing<br>• Real-Time Analysis Engine           |
+| 🤖 **AI Integration**  | • Dual AI Engine Support (Gemini & DeepSeekR1)<br>• Intelligent File Classification<br>• Predictive Analytics |
+| 📊 **Visualization**   | • Interactive Charts & Graphs<br>• Real-Time Data Updates<br>• Custom Visualization Templates          |
+| 🎨 **User Experience** | • Modern Dark Mode Interface<br>• Intuitive Navigation<br>• Contextual Help System                   |
+| 🔄 **Compatibility**   | • Cross-Platform Support<br>• Flexible Export Options<br>• API Integration Capabilities               |
 
 </div>
 
@@ -104,114 +104,82 @@ DeepScan AI represents the convergence of advanced storage analysis and artifici
 ### Prerequisites
 
 ```bash
-# Required System Specifications
+# Required System Specifications:
 - Python 3.8+
 - 4GB RAM minimum
 - 500MB disk space
-```
-
-### Quick Start
-
-```bash
-# Clone repository
+Quick Start
+bash
+Copy
+# Clone the repository
 git clone https://github.com/RorriMaesu/DeepScan-AI.git
 cd DeepScan-AI
 
-# Create virtual environment
+# Create a virtual environment
 python -m venv venv
-source venv/bin/activate  # Unix
-.\venv\Scripts\activate   # Windows
+# For Windows:
+.\venv\Scripts\activate
+# For Unix (if needed):
+# source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
-```
-
-### AI Engine Setup
-
-<details>
-<summary>🤖 Gemini Configuration</summary>
-
-```bash
-# Create .env file
+AI Engine Setup
+<details> <summary>🤖 Gemini Configuration</summary>
+bash
+Copy
+# Create a .env file with your Gemini API key
 echo "GEMINI_API_KEY=your_api_key_here" > .env
-```
-</details>
-
-<details>
-<summary>🔮 DeepSeekR1 Setup</summary>
-
-```bash
+</details> <details> <summary>🔮 DeepSeekR1 Setup</summary>
+bash
+Copy
 # Install Ollama
 curl -fsSL https://ollama.com/install.sh | sh
 
 # Initialize DeepSeekR1
 ollama run deepseek-r1
-```
 </details>
-
-## 📖 Documentation
-
-### Application Launch
-
-```bash
+📖 Documentation
+Application Launch
+bash
+Copy
 python app.py
-```
+Key Commands
+<div align="center">
+Action	Shortcut	Description
+Open Directory	Ctrl+O	Launch directory selector
+Quick Scan	Ctrl+Q	Perform rapid analysis
+Generate Report	Ctrl+R	Create detailed report
+Toggle AI	Ctrl+A	Enable/disable AI features
+</div>
+🎯 Usage Workflow
+Initialize Scan
 
-### Key Commands
+Select the target directory
+Configure scan parameters
+Choose the AI engine
+Analysis Phase
 
+Monitor real-time progress
+View preliminary results
+Adjust filters as needed
+AI-Powered Insights
+
+Review AI recommendations
+Explore optimization options
+Generate custom reports
+🤝 Support
 <div align="center">
 
-| Action | Shortcut | Description |
-|--------|----------|-------------|
-| Open Directory | `Ctrl+O` | Launch directory selector |
-| Quick Scan | `Ctrl+Q` | Perform rapid analysis |
-| Generate Report | `Ctrl+R` | Create detailed report |
-| Toggle AI | `Ctrl+A` | Enable/disable AI features |
 
 </div>
-
-## 🎯 Usage Workflow
-
-1. **Initialize Scan**
-   - Select target directory
-   - Configure scan parameters
-   - Choose AI engine
-
-2. **Analysis Phase**
-   - Monitor real-time progress
-   - View preliminary results
-   - Adjust filters as needed
-
-3. **AI-Powered Insights**
-   - Review AI recommendations
-   - Explore optimization options
-   - Generate custom reports
-
-## 🤝 Support
-
+🌐 Connect
 <div align="center">
 
-[![Sponsor](https://img.shields.io/badge/Sponsor-DeepScan%20AI-pink?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/RorriMaesu)
-[![Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/rorrimaesu)
 
 </div>
-
-## 🌐 Connect
-
 <div align="center">
-
-[![YouTube](https://img.shields.io/badge/YouTube-Naked_Sage_Astrology-red?style=for-the-badge&logo=youtube)](https://youtube.com/@NakedSageAstrology)
-[![Spotify](https://img.shields.io/badge/Spotify-VeritasNewsAI-green?style=for-the-badge&logo=spotify)](https://open.spotify.com/show/640lTfWLQAxZ4Hj2Bj5YAV)
-[![GitHub](https://img.shields.io/badge/GitHub-RorriMaesu-black?style=for-the-badge&logo=github)](https://github.com/RorriMaesu)
-
-</div>
-
----
-
-<div align="center">
-
-### DeepScan AI - Transforming Storage Analysis
-
-*Built with ❤️ by RorriMaesu*
+DeepScan AI - Transforming Storage Analysis
+Built with ❤️ by RorriMaesu
 
 </div>
