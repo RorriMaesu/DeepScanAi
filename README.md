@@ -271,7 +271,7 @@ visualization:
 [![YouTube](https://img.shields.io/badge/YouTube-Naked_Sage_Astrology-red?style=for-the-badge&logo=youtube)](https://youtube.com/@NakedSageAstrology)
 [![Spotify](https://img.shields.io/badge/Spotify-VeritasNewsAI-green?style=for-the-badge&logo=spotify)](https://open.spotify.com/show/640lTfWLQAxZ4Hj2Bj5YAV)
 [![GitHub](https://img.shields.io/badge/GitHub-RorriMaesu-black?style=for-the-badge&logo=github)](https://github.com/RorriMaesu)
-[![Discord](https://img.shields.io/badge/Discord-Join_Community-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/deepscanai)
+
 
 </div>
 
