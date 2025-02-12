@@ -1,4 +1,3 @@
-```markdown
 # DeepScan AI  
 *The Pinnacle of Intelligent Disk Space Analysis*
 
@@ -154,4 +153,3 @@ DeepScan AI is a free and open-source project dedicated to optimizing your stora
 ---
 
 Elevate your disk management experience with DeepScan AI—where precision meets sophistication and every byte is meticulously analyzed.
-```
