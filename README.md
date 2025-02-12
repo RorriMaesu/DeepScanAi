@@ -4,7 +4,7 @@
 ### *Elevating Storage Analysis Through Artificial Intelligence*
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-success?style=for-the-badge&logo=github)](https://github.com/RorriMaesu/DeepScanAi)
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Made with Love](https://img.shields.io/badge/Made%20with-♥-red?style=for-the-badge)](https://github.com/RorriMaesu)
 
 
@@ -105,7 +105,7 @@ DeepScan AI represents the convergence of advanced storage analysis and artifici
 
 ```bash
 # Required System Specifications
-- Python 3.8+
+- Python 3.11+
 - 4GB RAM minimum
 - 500MB disk space
 ```
