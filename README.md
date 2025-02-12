@@ -102,7 +102,7 @@ DeepScan AI is a free and open-source project dedicated to optimizing your stora
 ## Connect
 
 - **YouTube:** [Naked Sage Astrology](https://youtube.com/@NakedSageAstrology)
-- **Spotify:** [VeritasNewsAI]([https://open.spotify.com/show/...](https://open.spotify.com/show/640lTfWLQAxZ4Hj2Bj5YAV?si=JbbffzsfQX-3q5WutHlq5A))
+- **Spotify:** [VeritasNewsAI](https://open.spotify.com/show/640lTfWLQAxZ4Hj2Bj5YAV?si=JbbffzsfQX-3q5WutHlq5A))
 
 ---
 
