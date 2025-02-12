@@ -3,7 +3,7 @@
 # DeepScan AI
 ### *Elevating Storage Analysis Through Artificial Intelligence*
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-success?style=for-the-badge&logo=github)](https://github.com/RorriMaesu/DeepScan-AI)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-success?style=for-the-badge&logo=github)](https://github.com/RorriMaesu/DeepScanAi)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Made with Love](https://img.shields.io/badge/Made%20with-♥-red?style=for-the-badge)](https://github.com/RorriMaesu)
