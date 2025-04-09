@@ -37,6 +37,10 @@ A disk analysis tool with AI capabilities for understanding file content.
 3. Use the various buttons to interact with files and analyze content
 4. Toggle between different views using the view buttons
 
+## Support the Project
+
+[![Buy Me A Coffee](static/capitalismsucksbutiamsuperpassionateaboutbeingabletoaffordfood.png)](https://buymeacoffee.com/rorrimaesu)
+
 ## License
 
 MIT License
